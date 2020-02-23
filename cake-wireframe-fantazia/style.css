@@ -1,0 +1,192 @@
+/* global element styling */
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #ffe70a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    /* font-weight: lighter; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* img {
+max-width: 100%;
+height: auto;
+} */
+
+button {
+    background: #ff0095;
+    /* margin: 20px; */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+
+/* global class styling */
+
+
+/* slide-show */
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow>div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+/* position:absolute; its stopping the loop */
+
+#slideshow img {
+    width: 100%;
+}
+
+
+/* .header {
+    background-color: rgb(238, 238, 238);
+    margin: 0px;
+    padding: 10;
+    width: 100%;
+    height: auto;
+    flex: auto;
+    flex-direction: column;
+}
+
+.header-img {
+    max-width: 100%;
+    opacity: 0.9;
+} */
+
+
+/* carousel picture slider */
+
+
+/* .carousel-container img {
+    width: 379px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+} */
+
+
+/*                         
+slides {
+    width: 25%;
+    height: auto;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -ms-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slider-img {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+/* cake image section */
+
+
+/* .cake {
+    background-color: rgb(18, 188, 240);
+    border: 10px solid;
+    border-color: rgb(240, 2, 133);
+    border-radius: 3%;
+    margin: 10px;
+    padding: 7px;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* creating 4 columns sitting next to each other */
+
+
+/* .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px
+}
+
+.column img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+} */
+
+*/
+/* responsive layout - 2 columns */
+
+
+/* @media screen and (max-width: 800px) {
+.column {
+flex: 50%;
+max-width: 50%;
+}
+} */
+
+
+/* responsive layout - makes two columns stack on top of each other */
+
+
+/* @media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+ */
+
+
+/* slider - http://qnimate.com/creating-a-slider-using-html-and-css-only/ */
